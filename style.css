@@ -1,0 +1,165 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.content{
+    margin-top: 3%;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profile{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo{
+    display: flex;
+    border-radius: 100%;
+    border: 3px solid #BB99DD ;
+    padding: 5px;
+    
+    height: 150px;
+    width: 150px;
+
+}
+
+.profile p{
+    color: #BB99DD;
+    font-weight: 300;
+}
+
+.links{
+    height: auto;
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links a{
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #BB99DD;
+
+    margin-top: 2%;
+    border: 2px solid #BB99DD;
+    padding: 2% 35%;
+}
+
+.links a:hover{
+    background: #BB99DD;
+    color: aliceblue;
+    border: 1px solid #876aa5;
+    
+}
+
+
+.icons{
+    height: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.icons img:first-child{
+    margin-left: 0;
+}
+
+.icons img{
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 900px) {
+body {
+    justify-content: center;
+} 
+    
+.content{
+    padding-top: 23%;
+    width: 80%;
+}
+
+.profile{
+    height: auto;
+    width: 50%;
+}
+
+.photo{
+    display: flex;
+    border-radius: 100%;
+    border: 2px solid #BB99DD ;
+    padding: 2px;
+    
+    height: 120px;
+    width: 120px;
+
+}
+
+.links{
+    height: auto;
+    width: 50%;
+}
+
+.links a{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: small;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #BB99DD;
+
+    margin-bottom: 10%;
+    border: 1.5px solid #BB99DD;
+    padding: 2% 40%;
+}
+
+.links a:hover{
+    background: #BB99DD;
+    color: aliceblue;
+    border: 1px solid #876aa5;
+}
+
+
+.icons{
+    height: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.icons img:first-child{
+    margin-left: 0;
+}
+
+.icons img{
+    width: 10%;
+    height: auto;
+    margin-left: 10%;
+}
+}
